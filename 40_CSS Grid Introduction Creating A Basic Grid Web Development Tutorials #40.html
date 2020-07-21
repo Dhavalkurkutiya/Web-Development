@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grid Tutorial</title>
+    <style>
+    .container{
+        display: grid;
+        /* grid-template-columns: 300px 100px 100px; */
+        /* grid-template-columns: 300px auto 100px; */
+        /* grid-template-columns: 1fr 4fr 1fr; */
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 2rem;
+    }
+    .item{
+        /* height: 100px;
+        width: 100px; */
+        background-color: red;
+        border: 2px solid black;
+        padding: 15px 5px;
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">This is Item-1</div>
+        <div class="item">This is Item-2</div>
+        <div class="item">This is Item-3</div>
+        <div class="item">This is Item-4</div>
+        <div class="item">This is Item-5</div>
+        <div class="item">This is Item-6</div>
+        <div class="item">This is Item-7</div>
+        <div class="item">This is Item-8</div>
+        <div class="item">This is Item-9</div>
+        <div class="item">This is Item-9</div>
+        <div class="item">This is Item-9</div>
+        <div class="item">This is Item-9</div>
+        <div class="item">This is Item-9</div>
+        <div class="item">This is Item-9</div>
+        <div class="item">This is Item-9</div>
+        <div class="item">This is Item-9</div>
+        <div class="item">This is Item-9</div>
+        <div class="item">This is Item-9</div>
+        <div class="item">This is Item-9</div>
+        <div class="item">This is Item-9</div>
+    </div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Master Hacking</title>
+  <style type="text/css" media="all">
+  .cantnar{
+    display: grid;
+    /* grid-template-columns: 300px 100px 100px; */
+    /* grid-template-columns: 100px auto 100px; */
+    grid-template-columns: 1fr 4fr 1fr;
+    /* grid-template-columns: repeat(3, auto); */
+    grid-gap:2rem;
+  }
+  .item{
+    background-color: rgb(184,230,241);
+    border-radius: 5px;
+    border: solid rgb(204,245,244);
+    /* box-shadow: 12px 12px rgb(169,229,244); */
+    /* width: 100px; */
+    /* height: 100px; */
+    padding:15px 5px;
+  }
+  </style>
+</head>
+<body>
+  <div class="cantnar">
+    <div class="item">This is item-1</div>
+    <div class="item">This is item-2</div>
+    <div class="item">This is item-3</div>
+    <div class="item">This is item-4</div>
+    <div class="item">This is item-5</div>
+    <div class="item">This is item-6</div>
+    <div class="item">This is item-7</div>
+    <div class="item">This is item-8</div>
+    <div class="item">This is item-9</div>
+  </div>
+</body>
+</html>
